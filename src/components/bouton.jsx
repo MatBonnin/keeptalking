@@ -6,7 +6,7 @@ const ButtonComponent = () => {
   const [numBatteries, setNumBatteries] = useState(0);
   const [indicator, setIndicator] = useState('');
   const [instructions, setInstructions] = useState('');
-  const [stripColor, setStripColor] = useState('');
+  const [stripColor] = useState('');
   const [show, setShow] = useState(false);
 
   const handleSubmit = (e) => {
